@@ -1,0 +1,20 @@
+@import "./header.css";
+@import "./body.css";
+* {
+  margin: 0%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  margin: auto;
+  display: inline-block;
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 600;
+}
+li:hover {
+  color: rgb(47, 47, 162);
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,55 @@
+.body {
+  width: 93%;
+  height: 650px;
+  margin: auto;
+  font-family: "Mulish", sans-serif;
+}
+.body .text {
+  height: 15%;
+  width: 100%;
+}
+.body .text a {
+  float: right;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Mulish", sans-serif;
+  color: #4586D5;
+  padding: 9px 20px 7px;
+  border: 2px solid #FAD110;
+  text-decoration: none;
+}
+.body .text h1 {
+  font-family: "Mulish", sans-serif;
+}
+.body .cards {
+  height: 80%;
+  width: 100%;
+}
+.body .cards .card1 {
+  float: left;
+  height: 100%;
+  width: 30%;
+  float: left;
+  box-shadow: 0px 0.1px 8px rgb(175, 172, 172);
+  position: relative;
+}
+.body .cards .card1:hover .img {
+  transition: 0.3s;
+  background-color: #4586D5;
+}
+.body .cards .card1 .img {
+  position: absolute;
+  margin-left: 110px;
+  margin-top: 180px;
+  background-color: #FAD110;
+  border-radius: 10px;
+}
+.body .cards .card1 .lbody {
+  margin: auto;
+  text-align: center;
+}
+.body .cards .card1 .lbody p {
+  margin-top: 10px;
+  width: 79%;
+  margin: auto;
+}/*# sourceMappingURL=body.css.map */
