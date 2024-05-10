@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  font-size: 18px;
+  color: #4586d5;
+  font-weight: 700;
+  letter-spacing: 2px;
+  display: block;
+  text-transform: uppercase;
+  margin-left: 33rem;
+}
+
+.subheading {
+  font-size: 20px;
+  color: #142336;
+  font-weight: 600;
+  margin-left: 28rem;
+  margin-top: 20px;
+}
+
+.main-body {
+  width: 100%;
+  margin-top: 2rem;
+}
+.main-body .container {
+  width: 30%;
+  height: 200px;
+  margin-left: 2.5%;
+  margin-top: 2rem;
+  float: left;
+  border: none;
+}
+.main-body .container .card-container {
+  box-shadow: 1px 2px 7px rgb(190, 186, 186);
+  border-top: 5px solid rgb(253, 208, 208);
+  padding: 3rem;
+  font-style: italic;
+  color: rgb(120, 118, 118);
+}
+.main-body .container .card-container p {
+  margin-top: 20px;
+}
+.main-body .container .card-container:hover {
+  border-top: 5px solid rgb(254, 208, 116);
+}
+.main-body .container .base-card {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.main-body .container .base-card .user-image,
+.main-body .container .base-card .username {
+  float: left;
+}
+.main-body .container .base-card .user-image img {
+  width: 80px;
+  height: 80px;
+}
+.main-body .container .base-card .username {
+  margin-left: 5rem;
+  font-size: 1.2rem;
+}
+.main-body .container .base-card .username p {
+  color: #4586d5;
+}/*# sourceMappingURL=testimonial.css.map */

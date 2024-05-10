@@ -1,19 +1,20 @@
-*{
-    margin: 0%;
+* {
+  margin: 0%;
 }
 @import "./header.css";
 @import "./body.css";
-ul{
-    list-style-type: none;   
-
+@import "./assignment.scss";
+@import "./testimonial.scss";
+ul {
+  list-style-type: none;
 }
-li{
-    display: inline;
-    margin: auto;
-    display:inline-block;
-    font-family: "Saira Condensed", sans-serif;
-    font-weight: 600;
-    &:hover{
-        color: rgb(47, 47, 162);
-    }
+li {
+  display: inline;
+  margin: auto;
+  display: inline-block;
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 600;
+  &:hover {
+    color: rgb(47, 47, 162);
+  }
 }
