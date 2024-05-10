@@ -1,0 +1,264 @@
+
+
+.container11 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("call-bg.jpg.webp");
+  background-size: cover;
+  background-position: center;
+  margin-top: 20rem;
+ 
+}
+
+.container h2{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 15px;
+    
+}
+.container h1{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    text-shadow: 1px 1px 2px #142336;
+    font-family: "Saira Condensed", sans-serif;
+}
+
+button {
+    display: inline-block;
+    font-size: 18px;
+    color: #eceff4;
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: #FAD110;
+    padding: 14px 36px 12px;
+    border: 0px;
+  &:hover {
+    color: #ffff;
+  }
+}
+
+.box-test{
+    position: relative;
+    h2{
+        width: 75%;
+        margin: auto;
+        a{
+            font-family: "Saira Condensed", sans-serif;
+            text-decoration: none;
+            color: #000;
+        }
+    }
+    ul{
+        li{
+            display: inline-block;
+        }
+    }
+#name{
+    color: #4586D5;
+}
+}
+.box-test ul{
+    font-size: 14px;
+    color: #888888;
+    list-style: none;
+    display: inline-block;
+    margin-right: 24px;
+    position: relative;
+} 
+
+
+
+
+
+
+
+.latest-news .ln-p1{
+
+    font-size: 18px;
+    color: #4586D5;
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.latest-news .ln-p2{
+font-size: 40px;
+color: #142336;
+font-weight: 600;
+}
+
+.latest-news{
+width: 100%;
+height: 600px;
+background-color: #F3F8FC;;
+}
+.ln-p1{
+    font-size: 20px;
+    font-weight: bold;
+    color: cyan;
+    text-align: center;
+    padding-top: 40px;
+}
+.ln-p2{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(102, 12, 186);
+    text-align: center;
+}
+.box1{
+float: left;
+padding: 10px;
+width: 30%;
+margin-right: 20px;
+}
+
+.box2{
+    float: left;
+padding: 10px;
+width: 30%;
+margin-right: 20px;
+}
+.box3{
+    float: right;
+    float: left;
+padding: 10px;
+width: 30%;
+}
+.image{
+    width: 100%;
+    height: 40%;
+    
+}
+.box-test{
+    margin-bottom: 8px;
+}
+
+
+.footer{
+    margin-top: 30px;
+    background-color: #142336;
+    height: 700px;
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+    .blank{
+        width: 100%;
+        height: 80px;
+    }
+}
+.fbox1,.fbox4{
+    color: #d9d7cc;
+    float: left;
+    width: 20%;
+    height: 80%;
+    border-top: 1px solid rgb(84, 84, 82);
+    margin-left: 20px;
+
+}
+
+.fbox2{
+    color: #d9d7cc;
+    float: left;
+    width: 24%;
+    height: 80%;
+    border-top: 1px solid rgb(84, 84, 82);
+    margin-left: 20px
+}
+
+.fbox2-1{
+    float: left;
+    margin-right: 20px;
+    }
+.fbox2-2{
+float: left;
+}
+.fbox3{
+    color: #d9d7cc;
+    float: left;
+    width: 24%;
+    height: 80%;
+    text-align: center;
+    border-top: 1px solid rgb(84, 84, 82);
+    margin-left: 15px
+}
+
+
+.fbox5{
+    
+    width: 90%;
+    height: 100px;
+    margin-left: 60px;
+    border-top: 1px solid rgb(84, 84, 82);
+    float: left;
+}
+.fbox5 p{
+    text-align: center;
+    color: aliceblue;
+    top: -50px;
+}
+.fbox4 button{
+    background-color: #fad110;
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    text-align: center;
+}
+.contfloat{
+    width: 90%;
+    height: 100px;
+    background-color: cornflowerblue;
+    position: absolute;
+    margin-left: 3.7%;
+   
+}
+.contfloat1{
+    float: left;
+    margin-left: 50px;
+}
+.contfloat1 h1{
+  color: #F3F8FC;
+  font-size: 35px;
+  top: -50px;
+}
+.contfloat2{
+    width: 30%;
+    height: 100%;
+    float: right;
+    margin-right: 70px;
+
+}
+.label{
+    position: relative;
+    left: 0;
+    top: -25px;
+    width: 100%;
+    text-align: center;
+}
+.label p{
+    font-size: 13px;
+    color: #e3e9f1;
+    background: #FAD110;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 2px 10px 1px;
+    display: inline-block;
+
+}
+
+h1{
+    font-family: "Saira Condensed", sans-serif;
+}
